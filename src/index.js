@@ -1,6 +1,9 @@
 import React from 'react';
 import ReactDOM from 'react-dom';
-import App from './App'
+import App from './App';
+
+import style from './index.css'
+
 import { createStore, applyMiddleware } from 'redux';
 import ReduxPromise from 'redux-promise';
 import {Provider} from 'react-redux';
@@ -17,7 +20,6 @@ let store = createStoreWithMiddleware(reducers);
 
 ReactDOM.render(
   <Provider store={store}>
-
   <App />
 </Provider>
 
