@@ -3,6 +3,7 @@
   "version": "0.1.0",
   "private": true,
   "dependencies": {
+    "@material-ui/core": "^3.0.2",
     "axios": "^0.17.1",
     "eslint-plugin-flowtype": "^2.41.0",
     "eslint-plugin-import": "^2.8.0",
@@ -12,11 +13,13 @@
     "moment": "^2.20.1",
     "npm": "^5.6.0",
     "react": "^16.2.0",
+    "react-bootstrap": "^0.32.4",
     "react-dom": "^16.2.0",
     "react-moment": "^0.6.8",
     "react-redux": "^5.0.6",
     "react-scripts": "1.0.17",
     "react-sparklines": "^1.7.0",
+    "recordrtc": "^5.4.7",
     "redux": "^3.7.2",
     "redux-promise": "^0.5.3"
   },

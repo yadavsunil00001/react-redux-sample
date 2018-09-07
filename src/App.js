@@ -1,11 +1,10 @@
 import React, { Component } from 'react';
-
-import Content from './Content';
+import Record from './RecordPage.react';
 class App extends Component {
   render() {
     return (
       <div  className="App">
-        <Content />
+      <Record />
     </div>
     );
   }
